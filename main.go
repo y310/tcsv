@@ -13,6 +13,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "tcsv"
 	app.Usage = "transpose stdin and join by comma"
+	app.Version = "0.0.1"
 	app.Flags = []cli.Flag{
 		cli.StringFlag{
 			Name:  "separator, s",
